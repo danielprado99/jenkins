@@ -1,0 +1,5 @@
+Started by upstream project "[8mha:////4Eju4v7vIRnNJfY3ByDNCMHWOanypW4JrGKTqA+WV2zzAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZh/az8JP3cxMw83YLMglSgtan6AGINjTHIAAAA[0mmain-pipeline" build number [8mha:////4FQenvMUj9DEBZI8IrMv3O2pxPOGCuBrFlWz/oh1zNfNAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBhH9rPwk/dzEzDzdgsyCVKC1qfpGAM0XtGvJAAAA[0m2
+originally caused by:
+ Started by user [8mha:////4LB2d/BmgO9K1K1fv3i8CyToxNnp3f0zPBe1nvbS40ttAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzREgZh/dLi1CL9lMS8zNScgqLElHxLSwBfFJ6QyAAAAA==[0mDaniel da Rocha Prado
+ERROR: Unable to find Jenkinsfile from git https://github.com/danielprado99/account
+Finished: FAILURE

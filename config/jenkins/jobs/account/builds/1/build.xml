@@ -1,0 +1,60 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@1520.v56d65e3b_4566">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <org.jenkinsci.plugins.workflow.support.steps.build.BuildUpstreamCause plugin="pipeline-build-step@567.vea_ce550ece97">
+            <upstreamProject>main-pipeline</upstreamProject>
+            <upstreamUrl>job/main-pipeline/</upstreamUrl>
+            <upstreamBuild>1</upstreamBuild>
+            <upstreamCauses>
+              <hudson.model.Cause_-UserIdCause>
+                <userId>danielprado99</userId>
+              </hudson.model.Cause_-UserIdCause>
+            </upstreamCauses>
+            <nodeId>7</nodeId>
+          </org.jenkinsci.plugins.workflow.support.steps.build.BuildUpstreamCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <org.jenkinsci.plugins.workflow.support.steps.build.BuildUpstreamNodeAction plugin="pipeline-build-step@567.vea_ce550ece97">
+      <upstreamNodeId>7</upstreamNodeId>
+      <upstreamRunId>main-pipeline#1</upstreamRunId>
+    </org.jenkinsci.plugins.workflow.support.steps.build.BuildUpstreamNodeAction>
+    <org.jenkinsci.plugins.workflow.support.steps.build.BuildTriggerAction plugin="pipeline-build-step@567.vea_ce550ece97">
+      <triggers>
+        <org.jenkinsci.plugins.workflow.support.steps.build.BuildTriggerAction_-Trigger>
+          <context class="org.jenkinsci.plugins.workflow.cps.CpsStepContext" plugin="workflow-cps@4106.v7a_8a_8176d450">
+            <executionRef class="flow-owner" plugin="workflow-job@1520.v56d65e3b_4566">
+              <job>main-pipeline</job>
+              <id>1</id>
+            </executionRef>
+            <id>7</id>
+            <bodyHeads/>
+            <threadId>4</threadId>
+            <stepDescriptorId>org.jenkinsci.plugins.workflow.support.steps.build.BuildTriggerStep</stepDescriptorId>
+          </context>
+          <propagate>true</propagate>
+          <waitForStart>false</waitForStart>
+        </org.jenkinsci.plugins.workflow.support.steps.build.BuildTriggerAction_-Trigger>
+      </triggers>
+    </org.jenkinsci.plugins.workflow.support.steps.build.BuildTriggerAction>
+    <jenkins.metrics.impl.TimeInQueueAction plugin="metrics@4.2.32-476.v5042e1c1edd7">
+      <queuingDurationMillis>9380</queuingDurationMillis>
+      <blockedDurationMillis>0</blockedDurationMillis>
+      <buildableDurationMillis>0</buildableDurationMillis>
+      <waitingDurationMillis>9377</waitingDurationMillis>
+    </jenkins.metrics.impl.TimeInQueueAction>
+  </actions>
+  <queueId>3</queueId>
+  <timestamp>1748905840807</timestamp>
+  <startTime>1748905840827</startTime>
+  <result>FAILURE</result>
+  <duration>2384</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <completed>true</completed>
+  <checkouts class="hudson.util.PersistedList"/>
+</flow-build>

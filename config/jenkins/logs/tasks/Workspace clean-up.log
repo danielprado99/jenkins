@@ -1,0 +1,22 @@
+Started at Tue Jun 03 00:16:26 UTC 2025
+Checking account
+Deleting /var/jenkins_home/workspace/account on Jenkins
+Checking account-service
+Deleting /var/jenkins_home/workspace/account-service on Jenkins
+Checking auth
+Deleting /var/jenkins_home/workspace/auth on Jenkins
+Checking auth-service
+Deleting /var/jenkins_home/workspace/auth-service on Jenkins
+Checking gateway-service
+Deleting /var/jenkins_home/workspace/gateway-service on Jenkins
+Checking main-pipeline
+Deleting /var/jenkins_home/workspace/main-pipeline on Jenkins
+Checking order
+Deleting /var/jenkins_home/workspace/order on Jenkins
+Checking order-service
+Deleting /var/jenkins_home/workspace/order-service on Jenkins
+Checking product
+Deleting /var/jenkins_home/workspace/product on Jenkins
+Checking product-service
+Deleting /var/jenkins_home/workspace/product-service on Jenkins
+Finished at Tue Jun 03 00:16:27 UTC 2025. 992ms

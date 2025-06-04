@@ -1,0 +1,29 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2025-06-02 23:40:21.989 UTC</timestamp>
+  <md5sum>b576697aebbbf4afa64515312da55500</md5sum>
+  <fileName>Credential id=dockerhub-credential name=danielprado99/******</fileName>
+  <usages>
+    <entry>
+      <string>account-service</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>gateway-service</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>auth-service</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>order-service</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>product-service</string>
+      <ranges>1</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

@@ -1,0 +1,407 @@
+Started by upstream project "[8mha:////4Eju4v7vIRnNJfY3ByDNCMHWOanypW4JrGKTqA+WV2zzAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZh/az8JP3cxMw83YLMglSgtan6AGINjTHIAAAA[0mmain-pipeline" build number [8mha:////4N//5/cpGz764XLx/P5XbD8orb2EOSCaX/dioE0lz0poAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBhH9rPwk/dzEzDzdgsyCVKC1qfrGAFsnsxzJAAAA[0m3
+originally caused by:
+ Started by user [8mha:////4LB2d/BmgO9K1K1fv3i8CyToxNnp3f0zPBe1nvbS40ttAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzREgZh/dLi1CL9lMS8zNScgqLElHxLSwBfFJ6QyAAAAA==[0mDaniel da Rocha Prado
+Obtained Jenkinsfile from git https://github.com/danielprado99/gateway-service
+[8mha:////4Je+N43Hb/0LiiaFOAKFN5s+KwxTBY19ONGQVhJNDD/oAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4JNljGL7lRbuLSVFZlUgeCJQ5ZXKck0q7zwUgEGV2FfGAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4NQPfzXxRZ8a0x2J1yhCRf9HVTInWIeB0u3A9QobWNCaAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZR/eT83ILSktQifY2k0sycEt3MPE19AHHxbH3KAAAA[0mJenkins in /var/jenkins_home/workspace/gateway-service
+[8mha:////4BTNVFhLkGMT8eEkdGSLoeKL48l9q49YirsZc65FtPaLAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4BWrPbSTfmnNiiiPBELFWImR1XTJY61bcbz1l4l5AoHyAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4BkMs7RkG+hWcGj5wUd1lxO9Ae48nm/w1/lTcUbAmD4BAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4NuPUUsMX0socQmVhfmMSC4Myh6bJA4TN6+oWEkxAXkdAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] checkout
+The recommended git tool is: git
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/danielprado99/gateway-service
+ > git init /var/jenkins_home/workspace/gateway-service # timeout=10
+Fetching upstream changes from https://github.com/danielprado99/gateway-service
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.5'
+ > git fetch --tags --force --progress -- https://github.com/danielprado99/gateway-service +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/danielprado99/gateway-service # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 422b52ecfc670e115ebd492cd1129c8e5fec37d0 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 422b52ecfc670e115ebd492cd1129c8e5fec37d0 # timeout=10
+Commit message: "Merge branch 'master'"
+First time build. Skipping changelog.
+[8mha:////4Ns6IrNC00yoZYkshURfAy9sXmgIBODqPya6wJ4b40+aAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4L2yGdGM0KQRpAyAlk9VpLqDeRscL37iQJXPyCrtU/xGAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4F1SyIBmDsUDQpvVfjwFppWPfFXNXOVvs1n4BY2RBmJdAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] withEnv
+[8mha:////4FbKWmCXlaBxEKrfCfcboGMMjKm1m7cEeSe3p4e3plBbAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] {
+[8mha:////4DfMbXstRX9/UIbGxsrrQ7kyLDvQXyLlf3pIqnEUkpEjAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] withEnv
+[8mha:////4I8hqu61JRYjwHlCv8hj+HGeCwmhRp2QEbpSbcRIW/lzAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] {
+[8mha:////4A6haxMwPlZtWxA9IAjFYWgtxtd0IWV/61J4Sn+JDOXeAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUCDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAbNWnxXCAAAA[0m[Pipeline] stage
+[8mha:////4N4q67Ly5LWh1xccEA7sZplX11DHAdOTCTuY6yr/Gcm8AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUSDAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD5WQ+PfCAAAA[0m[Pipeline] { (Build)
+[8mha:////4EiKXwqtxx75opZsECCJuscpgFkRTdUeOlpHJstm7ObqAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCmgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN7LjSKW+AAAA[0m[Pipeline] sh
++ mvn -B -DskipTests clean package
+[0m[0m[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------------< store:gateway-service >------------------------
+[INFO] Building gateway-service 1.0.0
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-gateway/4.2.0/spring-cloud-starter-gateway-4.2.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-gateway/4.2.0/spring-cloud-starter-gateway-4.2.0.pom (2.4 kB at 752 B/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-gateway/4.2.0/spring-cloud-gateway-4.2.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-gateway/4.2.0/spring-cloud-gateway-4.2.0.pom (2.7 kB at 63 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-gateway-server/4.2.0/spring-cloud-gateway-server-4.2.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-gateway-server/4.2.0/spring-cloud-gateway-server-4.2.0.pom (7.0 kB at 73 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-validation/3.4.2/spring-boot-starter-validation-3.4.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-validation/3.4.2/spring-boot-starter-validation-3.4.2.pom (2.5 kB at 40 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/hibernate/validator/hibernate-validator/8.0.2.Final/hibernate-validator-8.0.2.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/hibernate/validator/hibernate-validator/8.0.2.Final/hibernate-validator-8.0.2.Final.pom (15 kB at 155 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/hibernate/validator/hibernate-validator-parent/8.0.2.Final/hibernate-validator-parent-8.0.2.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/hibernate/validator/hibernate-validator-parent/8.0.2.Final/hibernate-validator-parent-8.0.2.Final.pom (82 kB at 616 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jboss/arquillian/arquillian-bom/1.7.0.Alpha10/arquillian-bom-1.7.0.Alpha10.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jboss/arquillian/arquillian-bom/1.7.0.Alpha10/arquillian-bom-1.7.0.Alpha10.pom (10 kB at 416 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jboss/shrinkwrap/shrinkwrap-bom/1.2.6/shrinkwrap-bom-1.2.6.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jboss/shrinkwrap/shrinkwrap-bom/1.2.6/shrinkwrap-bom-1.2.6.pom (4.0 kB at 102 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jboss/shrinkwrap/resolver/shrinkwrap-resolver-bom/3.1.4/shrinkwrap-resolver-bom-3.1.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jboss/shrinkwrap/resolver/shrinkwrap-resolver-bom/3.1.4/shrinkwrap-resolver-bom-3.1.4.pom (7.0 kB at 269 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven/3.6.3/maven-3.6.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven/3.6.3/maven-3.6.3.pom (26 kB at 696 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jboss/shrinkwrap/descriptors/shrinkwrap-descriptors-bom/2.0.0/shrinkwrap-descriptors-bom-2.0.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jboss/shrinkwrap/descriptors/shrinkwrap-descriptors-bom/2.0.0/shrinkwrap-descriptors-bom-2.0.0.pom (5.2 kB at 218 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/jakarta/validation/jakarta.validation-api/3.0.2/jakarta.validation-api-3.0.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/jakarta/validation/jakarta.validation-api/3.0.2/jakarta.validation-api-3.0.2.pom (11 kB at 379 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/projectreactor/addons/reactor-extra/3.5.2/reactor-extra-3.5.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/projectreactor/addons/reactor-extra/3.5.2/reactor-extra-3.5.2.pom (2.0 kB at 87 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/projectreactor/reactor-core/3.7.2/reactor-core-3.7.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/projectreactor/reactor-core/3.7.2/reactor-core-3.7.2.pom (2.1 kB at 86 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.pom (1.1 kB at 34 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-webflux/3.4.2/spring-boot-starter-webflux-3.4.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-webflux/3.4.2/spring-boot-starter-webflux-3.4.2.pom (2.9 kB at 51 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-reactor-netty/3.4.2/spring-boot-starter-reactor-netty-3.4.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-reactor-netty/3.4.2/spring-boot-starter-reactor-netty-3.4.2.pom (2.1 kB at 49 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/projectreactor/netty/reactor-netty-http/1.2.2/reactor-netty-http-1.2.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/projectreactor/netty/reactor-netty-http/1.2.2/reactor-netty-http-1.2.2.pom (4.3 kB at 123 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-http/4.1.117.Final/netty-codec-http-4.1.117.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-http/4.1.117.Final/netty-codec-http-4.1.117.Final.pom (4.4 kB at 118 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-parent/4.1.117.Final/netty-parent-4.1.117.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-parent/4.1.117.Final/netty-parent-4.1.117.Final.pom (90 kB at 979 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-common/4.1.117.Final/netty-common-4.1.117.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-common/4.1.117.Final/netty-common-4.1.117.Final.pom (12 kB at 337 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-buffer/4.1.117.Final/netty-buffer-4.1.117.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-buffer/4.1.117.Final/netty-buffer-4.1.117.Final.pom (1.6 kB at 55 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport/4.1.117.Final/netty-transport-4.1.117.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport/4.1.117.Final/netty-transport-4.1.117.Final.pom (2.2 kB at 83 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-resolver/4.1.117.Final/netty-resolver-4.1.117.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-resolver/4.1.117.Final/netty-resolver-4.1.117.Final.pom (1.6 kB at 66 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec/4.1.117.Final/netty-codec-4.1.117.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec/4.1.117.Final/netty-codec-4.1.117.Final.pom (5.5 kB at 122 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-handler/4.1.117.Final/netty-handler-4.1.117.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-handler/4.1.117.Final/netty-handler-4.1.117.Final.pom (4.6 kB at 73 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-unix-common/4.1.117.Final/netty-transport-native-unix-common-4.1.117.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-unix-common/4.1.117.Final/netty-transport-native-unix-common-4.1.117.Final.pom (33 kB at 441 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-http2/4.1.117.Final/netty-codec-http2-4.1.117.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-http2/4.1.117.Final/netty-codec-http2-4.1.117.Final.pom (5.2 kB at 191 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-resolver-dns/4.1.117.Final/netty-resolver-dns-4.1.117.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-resolver-dns/4.1.117.Final/netty-resolver-dns-4.1.117.Final.pom (3.7 kB at 98 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-dns/4.1.117.Final/netty-codec-dns-4.1.117.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-dns/4.1.117.Final/netty-codec-dns-4.1.117.Final.pom (2.7 kB at 123 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-resolver-dns-native-macos/4.1.117.Final/netty-resolver-dns-native-macos-4.1.117.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-resolver-dns-native-macos/4.1.117.Final/netty-resolver-dns-native-macos-4.1.117.Final.pom (19 kB at 812 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-resolver-dns-classes-macos/4.1.117.Final/netty-resolver-dns-classes-macos-4.1.117.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-resolver-dns-classes-macos/4.1.117.Final/netty-resolver-dns-classes-macos-4.1.117.Final.pom (2.0 kB at 58 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-epoll/4.1.117.Final/netty-transport-native-epoll-4.1.117.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-epoll/4.1.117.Final/netty-transport-native-epoll-4.1.117.Final.pom (27 kB at 734 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport-classes-epoll/4.1.117.Final/netty-transport-classes-epoll-4.1.117.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport-classes-epoll/4.1.117.Final/netty-transport-classes-epoll-4.1.117.Final.pom (2.1 kB at 79 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/projectreactor/netty/reactor-netty-core/1.2.2/reactor-netty-core-1.2.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/projectreactor/netty/reactor-netty-core/1.2.2/reactor-netty-core-1.2.2.pom (3.9 kB at 151 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-handler-proxy/4.1.117.Final/netty-handler-proxy-4.1.117.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-handler-proxy/4.1.117.Final/netty-handler-proxy-4.1.117.Final.pom (3.6 kB at 89 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-socks/4.1.117.Final/netty-codec-socks-4.1.117.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-socks/4.1.117.Final/netty-codec-socks-4.1.117.Final.pom (2.5 kB at 102 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-webflux/6.2.2/spring-webflux-6.2.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-webflux/6.2.2/spring-webflux-6.2.2.pom (2.6 kB at 103 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-gateway/4.2.0/spring-cloud-starter-gateway-4.2.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-gateway-server/4.2.0/spring-cloud-gateway-server-4.2.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-validation/3.4.2/spring-boot-starter-validation-3.4.2.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/hibernate/validator/hibernate-validator/8.0.2.Final/hibernate-validator-8.0.2.Final.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/jakarta/validation/jakarta.validation-api/3.0.2/jakarta.validation-api-3.0.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-gateway/4.2.0/spring-cloud-starter-gateway-4.2.0.jar (2.1 kB at 32 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/projectreactor/addons/reactor-extra/3.5.2/reactor-extra-3.5.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/projectreactor/addons/reactor-extra/3.5.2/reactor-extra-3.5.2.jar (104 kB at 900 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-webflux/3.4.2/spring-boot-starter-webflux-3.4.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-gateway-server/4.2.0/spring-cloud-gateway-server-4.2.0.jar (673 kB at 3.3 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-reactor-netty/3.4.2/spring-boot-starter-reactor-netty-3.4.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-reactor-netty/3.4.2/spring-boot-starter-reactor-netty-3.4.2.jar (4.8 kB at 23 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/projectreactor/netty/reactor-netty-http/1.2.2/reactor-netty-http-1.2.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-validation/3.4.2/spring-boot-starter-validation-3.4.2.jar (4.8 kB at 18 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-http/4.1.117.Final/netty-codec-http-4.1.117.Final.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/jakarta/validation/jakarta.validation-api/3.0.2/jakarta.validation-api-3.0.2.jar (93 kB at 327 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-common/4.1.117.Final/netty-common-4.1.117.Final.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-webflux/3.4.2/spring-boot-starter-webflux-3.4.2.jar (4.8 kB at 17 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-buffer/4.1.117.Final/netty-buffer-4.1.117.Final.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/hibernate/validator/hibernate-validator/8.0.2.Final/hibernate-validator-8.0.2.Final.jar (1.3 MB at 3.5 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport/4.1.117.Final/netty-transport-4.1.117.Final.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/projectreactor/netty/reactor-netty-http/1.2.2/reactor-netty-http-1.2.2.jar (534 kB at 1.1 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec/4.1.117.Final/netty-codec-4.1.117.Final.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-buffer/4.1.117.Final/netty-buffer-4.1.117.Final.jar (338 kB at 670 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-handler/4.1.117.Final/netty-handler-4.1.117.Final.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-http/4.1.117.Final/netty-codec-http-4.1.117.Final.jar (674 kB at 1.3 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-common/4.1.117.Final/netty-common-4.1.117.Final.jar (718 kB at 1.3 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-http2/4.1.117.Final/netty-codec-http2-4.1.117.Final.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-resolver-dns/4.1.117.Final/netty-resolver-dns-4.1.117.Final.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport/4.1.117.Final/netty-transport-4.1.117.Final.jar (521 kB at 825 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-resolver/4.1.117.Final/netty-resolver-4.1.117.Final.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-handler/4.1.117.Final/netty-handler-4.1.117.Final.jar (580 kB at 881 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec/4.1.117.Final/netty-codec-4.1.117.Final.jar (355 kB at 540 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-dns/4.1.117.Final/netty-codec-dns-4.1.117.Final.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-resolver-dns-native-macos/4.1.117.Final/netty-resolver-dns-native-macos-4.1.117.Final-osx-x86_64.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-resolver-dns/4.1.117.Final/netty-resolver-dns-4.1.117.Final.jar (188 kB at 283 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-resolver-dns-classes-macos/4.1.117.Final/netty-resolver-dns-classes-macos-4.1.117.Final.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-resolver/4.1.117.Final/netty-resolver-4.1.117.Final.jar (38 kB at 56 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-epoll/4.1.117.Final/netty-transport-native-epoll-4.1.117.Final-linux-x86_64.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-http2/4.1.117.Final/netty-codec-http2-4.1.117.Final.jar (490 kB at 732 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-unix-common/4.1.117.Final/netty-transport-native-unix-common-4.1.117.Final.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-resolver-dns-native-macos/4.1.117.Final/netty-resolver-dns-native-macos-4.1.117.Final-osx-x86_64.jar (20 kB at 29 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport-classes-epoll/4.1.117.Final/netty-transport-classes-epoll-4.1.117.Final.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-dns/4.1.117.Final/netty-codec-dns-4.1.117.Final.jar (67 kB at 98 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/projectreactor/netty/reactor-netty-core/1.2.2/reactor-netty-core-1.2.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-unix-common/4.1.117.Final/netty-transport-native-unix-common-4.1.117.Final.jar (44 kB at 64 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-resolver-dns-classes-macos/4.1.117.Final/netty-resolver-dns-classes-macos-4.1.117.Final.jar (9.1 kB at 13 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-handler-proxy/4.1.117.Final/netty-handler-proxy-4.1.117.Final.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-epoll/4.1.117.Final/netty-transport-native-epoll-4.1.117.Final-linux-x86_64.jar (41 kB at 59 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-socks/4.1.117.Final/netty-codec-socks-4.1.117.Final.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-webflux/6.2.2/spring-webflux-6.2.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport-classes-epoll/4.1.117.Final/netty-transport-classes-epoll-4.1.117.Final.jar (148 kB at 206 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/projectreactor/reactor-core/3.7.2/reactor-core-3.7.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-handler-proxy/4.1.117.Final/netty-handler-proxy-4.1.117.Final.jar (26 kB at 36 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-socks/4.1.117.Final/netty-codec-socks-4.1.117.Final.jar (121 kB at 166 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar (12 kB at 16 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/projectreactor/netty/reactor-netty-core/1.2.2/reactor-netty-core-1.2.2.jar (529 kB at 710 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-webflux/6.2.2/spring-webflux-6.2.2.jar (1.0 MB at 1.3 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/projectreactor/reactor-core/3.7.2/reactor-core-3.7.2.jar (1.9 MB at 2.3 MB/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:3.4.0:clean (default-clean) @ gateway-service ---
+[INFO] Deleting /var/jenkins_home/workspace/gateway-service/target
+[INFO] 
+[INFO] --- maven-resources-plugin:3.3.1:resources (default-resources) @ gateway-service ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] Copying 0 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.13.0:compile (default-compile) @ gateway-service ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 7 source files with javac [debug parameters release 21] to target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:3.3.1:testResources (default-testResources) @ gateway-service ---
+[INFO] skip non existing resourceDirectory /var/jenkins_home/workspace/gateway-service/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.13.0:testCompile (default-testCompile) @ gateway-service ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.5.2:test (default-test) @ gateway-service ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-jar-plugin:3.4.2:jar (default-jar) @ gateway-service ---
+[INFO] Building jar: /var/jenkins_home/workspace/gateway-service/target/gateway-service-1.0.0.jar
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:3.4.2:repackage (repackage) @ gateway-service ---
+[INFO] Replacing main artifact /var/jenkins_home/workspace/gateway-service/target/gateway-service-1.0.0.jar with repackaged archive, adding nested dependencies in BOOT-INF/.
+[INFO] The original artifact has been renamed to /var/jenkins_home/workspace/gateway-service/target/gateway-service-1.0.0.jar.original
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  16.974 s
+[INFO] Finished at: 2025-06-02T23:45:58Z
+[INFO] ------------------------------------------------------------------------
+[0m[0m
+[8mha:////4AwbIKkjDPSv5ljq2Y/gL/Dzm/nBFQJGkBhaa1Jv90iEAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCkSBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQGOY4V7vgAAAA==[0m[Pipeline] }
+[8mha:////4DQod44qpnVH88vPGbkjFUBibj1eZMmM2yx1j3nK6XpEAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJAokRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyu//U7g3N4dT9vgAAAA==[0m[Pipeline] // stage
+[8mha:////4MjoXUUWNLRbscLvjZE6+OrLvCxWTPwoPPcLR+fhgt85AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUiAkhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD21FAanCAAAA[0m[Pipeline] stage
+[8mha:////4KNrPoiZGlJlfVx8YTXNGZMrwpfdx5OUZFyTT+omiauPAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogU2BDqxBp14QShCSFp9H9JUtKJE3E17kCgEhMeLNuS9Z4vqIKHhrxmVmFvMHSGDW7UObFEvr84SszSmXWEgZxirUotSXWca0tRwayihAWHpcLOUTCoI6y4FXdRO4G6PkWftwOH0sgbPKDgmRyFj98yeVhfRxkIf5y/AJiGCOV2n223+TyrN7xWSV3CAAAA[0m[Pipeline] { (Build & Push Image)
+[8mha:////4IQQzYK8i216NM/fvbZoQNB/SmSoEPw2BPA8HWwqKOPuAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUWBFT1ygLJwhNCGmj/8tPSjtxIq7GHWipxIQHy7ZkvdcbishwInaisdh6jLUXXejdlMRA3F4DDaKhi6gJIwUrlB0UGVstVVGysCjLYSVhbbEOFD26BBvZ6Icug0ZXnhNP21FC7s0dnpDJiZw0p28ZGba33kTCH+cvAMYuQX7Yzbafn8UHbGnGmsIAAAA=[0m[Pipeline] withCredentials
+Masking supported pattern matches of $TOKEN
+[8mha:////4HDX3M64HGMVJv/8WkAFV7Ev7PIWiy2/dkm11V38lURhAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycohUdEVMrFEXThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbyhjgRMFwp7GzGFvLez+aOfFMobt5ytzRlbeEkbzmjc4NKX1ea0NJw6qCwUbAVmPrKVo0CXbCyYesvERTXVKYt6MAZtUATyjETE4ypG+ZAuzvo4qEP85fAEx9AlYfFquXZ/kBAsTc3cIAAAA=[0m[Pipeline] {
+[8mha:////4JUERExTjwP0yVrbtB0rUhge+Zb8ApuVkgC6k7UrHFj+AAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyE0vHypah8QSYIEKY/wkQSeWJvJp3EM2MlVvs7NvmPV+wjgGOFDSzCgeDsTPMu0mXxTKF4eooM0sX1hFGcooJlQX16rSgoKRgSVXDisNGYecoGtQJttzKu2ycRN2cUyjfgUNt+hEeUPFiTjKkL8wBdrepj4Q/z18BzD5B3baf2vs3w5BRkb4AAAA=[0m[Pipeline] sh
+Warning: A secret was passed to "sh" using Groovy String interpolation, which is insecure.
+		 Affected argument(s) used the following variable(s): [TOKEN]
+		 See https://jenkins.io/redirect/groovy-string-interpolation for details.
++ docker login -u danielprado99 -p ****
+WARNING! Using --password via the CLI is insecure. Use --password-stdin.
+Login Succeeded
+[8mha:////4KGZcDY0GedJ3k6PuBAwtlQo6xx+wgnAIm06HNBNk3itAAAApB+LCAAAAAAAAP9tjbEOwiAURV9rHFwd/QiaNG7GyZWw+AXYIkLJexSodPKL/DX/QbSJk3e4uecu5/mCdQxwpKCZVTgYjJ1h3k26LJYpDFdHmVm6sI4wklNMqCyoV6cFBSUFS6oaVhw2CjtH0aBOsOVW3mXjJOrmnEL5Dhxq04/wgIoXc5IhfWEOsLtNfST8ef4KYPYJ6rb91N6/AQQGEN6+AAAA[0m[Pipeline] sh
++ docker buildx create --use --platform=linux/arm64,linux/amd64 --node multi-platform-builder-gateway --name multi-platform-builder-gateway
+multi-platform-builder-gateway
+[8mha:////4P06RG28UPkKWRYMoxlzY8kdHxCwlQ6en1kl7YaGpST4AAAApB+LCAAAAAAAAP9tjbEOwiAURV9rHFwd/QiaNHEyTq6ExS/AFhFK3qNApZNf5K/5D6JNnLzDzT13Oc8XrGOAIwXNrMLBYOwM827SZbFMYbg6yszShXWEkZxiQmVBvTotKCgpWFLVsOKwUdg5igZ1gi238i4bJ1E35xTKd+BQm36EB1S8mJMM6QtzgN1t6iPhz/NXALNPULftp/b+DUU3C8e+AAAA[0m[Pipeline] sh
++ docker buildx build --platform=linux/arm64,linux/amd64 --push --tag danielprado99/gateway:latest --tag danielprado99/gateway:1 -f Dockerfile .
+#0 building with "multi-platform-builder-gateway" instance using docker-container driver
+
+#1 [internal] booting buildkit
+#1 pulling image moby/buildkit:buildx-stable-1
+#1 pulling image moby/buildkit:buildx-stable-1 1.6s done
+#1 creating container buildx_buildkit_multi-platform-builder-gateway
+#1 creating container buildx_buildkit_multi-platform-builder-gateway 7.2s done
+#1 DONE 8.9s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 133B 0.0s done
+#2 DONE 0.1s
+
+#3 [linux/amd64 internal] load metadata for docker.io/library/openjdk:21-slim
+#3 ...
+
+#4 [auth] library/openjdk:pull token for registry-1.docker.io
+#4 DONE 0.0s
+
+#5 [linux/arm64 internal] load metadata for docker.io/library/openjdk:21-slim
+#5 DONE 1.9s
+
+#3 [linux/amd64 internal] load metadata for docker.io/library/openjdk:21-slim
+#3 DONE 1.9s
+
+#6 [internal] load .dockerignore
+#6 transferring context: 2B 0.0s done
+#6 DONE 0.0s
+
+#7 [linux/amd64 1/2] FROM docker.io/library/openjdk:21-slim@sha256:7072053847a8a05d7f3a14ebc778a90b38c50ce7e8f199382128a53385160688
+#7 resolve docker.io/library/openjdk:21-slim@sha256:7072053847a8a05d7f3a14ebc778a90b38c50ce7e8f199382128a53385160688 0.0s done
+#7 DONE 0.1s
+
+#8 [linux/arm64 1/2] FROM docker.io/library/openjdk:21-slim@sha256:7072053847a8a05d7f3a14ebc778a90b38c50ce7e8f199382128a53385160688
+#8 resolve docker.io/library/openjdk:21-slim@sha256:7072053847a8a05d7f3a14ebc778a90b38c50ce7e8f199382128a53385160688 0.0s done
+#8 sha256:e482cded4ea3e54d7deef2d29bf8599b9b136ac318defe89871c2f83b08443d5 0B / 202.65MB 0.2s
+#8 sha256:e886f0f47ef56fcadb6ecaf2116056bbdb273e0afe07ed034498b198d386c04e 0B / 29.16MB 0.2s
+#8 sha256:e886f0f47ef56fcadb6ecaf2116056bbdb273e0afe07ed034498b198d386c04e 2.10MB / 29.16MB 0.5s
+#8 sha256:e886f0f47ef56fcadb6ecaf2116056bbdb273e0afe07ed034498b198d386c04e 5.24MB / 29.16MB 0.8s
+#8 sha256:e482cded4ea3e54d7deef2d29bf8599b9b136ac318defe89871c2f83b08443d5 11.53MB / 202.65MB 1.5s
+#8 sha256:e886f0f47ef56fcadb6ecaf2116056bbdb273e0afe07ed034498b198d386c04e 7.34MB / 29.16MB 1.1s
+#8 sha256:e886f0f47ef56fcadb6ecaf2116056bbdb273e0afe07ed034498b198d386c04e 10.49MB / 29.16MB 1.4s
+#8 sha256:e886f0f47ef56fcadb6ecaf2116056bbdb273e0afe07ed034498b198d386c04e 13.63MB / 29.16MB 1.7s
+#8 sha256:e886f0f47ef56fcadb6ecaf2116056bbdb273e0afe07ed034498b198d386c04e 15.73MB / 29.16MB 2.0s
+#8 sha256:e886f0f47ef56fcadb6ecaf2116056bbdb273e0afe07ed034498b198d386c04e 17.83MB / 29.16MB 2.1s
+#8 sha256:e482cded4ea3e54d7deef2d29bf8599b9b136ac318defe89871c2f83b08443d5 23.07MB / 202.65MB 2.7s
+#8 sha256:e886f0f47ef56fcadb6ecaf2116056bbdb273e0afe07ed034498b198d386c04e 19.92MB / 29.16MB 2.4s
+#8 sha256:e886f0f47ef56fcadb6ecaf2116056bbdb273e0afe07ed034498b198d386c04e 22.02MB / 29.16MB 2.6s
+#8 sha256:e886f0f47ef56fcadb6ecaf2116056bbdb273e0afe07ed034498b198d386c04e 24.12MB / 29.16MB 2.9s
+#8 sha256:e886f0f47ef56fcadb6ecaf2116056bbdb273e0afe07ed034498b198d386c04e 26.21MB / 29.16MB 3.0s
+#8 sha256:e886f0f47ef56fcadb6ecaf2116056bbdb273e0afe07ed034498b198d386c04e 28.31MB / 29.16MB 3.2s
+#8 sha256:e886f0f47ef56fcadb6ecaf2116056bbdb273e0afe07ed034498b198d386c04e 29.16MB / 29.16MB 3.3s done
+#8 extracting sha256:e886f0f47ef56fcadb6ecaf2116056bbdb273e0afe07ed034498b198d386c04e
+#8 sha256:e482cded4ea3e54d7deef2d29bf8599b9b136ac318defe89871c2f83b08443d5 34.60MB / 202.65MB 3.8s
+#8 sha256:c190c8d653feddc1553f480657f5813ecd07f1979c94ef5b5afa2b7c9c278ca4 0B / 3.82MB 0.2s
+#8 sha256:c190c8d653feddc1553f480657f5813ecd07f1979c94ef5b5afa2b7c9c278ca4 2.10MB / 3.82MB 0.5s
+#8 sha256:c190c8d653feddc1553f480657f5813ecd07f1979c94ef5b5afa2b7c9c278ca4 3.82MB / 3.82MB 0.6s
+#8 sha256:e482cded4ea3e54d7deef2d29bf8599b9b136ac318defe89871c2f83b08443d5 46.68MB / 202.65MB 4.7s
+#8 sha256:e482cded4ea3e54d7deef2d29bf8599b9b136ac318defe89871c2f83b08443d5 58.72MB / 202.65MB 5.4s
+#8 sha256:e482cded4ea3e54d7deef2d29bf8599b9b136ac318defe89871c2f83b08443d5 70.25MB / 202.65MB 6.2s
+#8 sha256:e482cded4ea3e54d7deef2d29bf8599b9b136ac318defe89871c2f83b08443d5 81.79MB / 202.65MB 6.6s
+#8 sha256:e482cded4ea3e54d7deef2d29bf8599b9b136ac318defe89871c2f83b08443d5 93.32MB / 202.65MB 7.1s
+#8 sha256:e482cded4ea3e54d7deef2d29bf8599b9b136ac318defe89871c2f83b08443d5 103.81MB / 202.65MB 7.5s
+#8 sha256:e482cded4ea3e54d7deef2d29bf8599b9b136ac318defe89871c2f83b08443d5 115.87MB / 202.65MB 8.1s
+#8 sha256:e482cded4ea3e54d7deef2d29bf8599b9b136ac318defe89871c2f83b08443d5 127.05MB / 202.65MB 8.6s
+#8 sha256:c190c8d653feddc1553f480657f5813ecd07f1979c94ef5b5afa2b7c9c278ca4 3.82MB / 3.82MB 5.7s
+#8 sha256:e482cded4ea3e54d7deef2d29bf8599b9b136ac318defe89871c2f83b08443d5 137.54MB / 202.65MB 9.5s
+#8 ...
+
+#9 [internal] load build context
+#9 transferring context: 37.35MB 6.1s done
+#9 DONE 9.9s
+
+#8 [linux/arm64 1/2] FROM docker.io/library/openjdk:21-slim@sha256:7072053847a8a05d7f3a14ebc778a90b38c50ce7e8f199382128a53385160688
+#8 ...
+
+#7 [linux/amd64 1/2] FROM docker.io/library/openjdk:21-slim@sha256:7072053847a8a05d7f3a14ebc778a90b38c50ce7e8f199382128a53385160688
+#7 sha256:af800cd8441e394f9ec3832393ff933c52e165c0965089937e3fb16ea395ea19 137.85MB / 204.31MB 9.8s
+#7 sha256:b4972576c83dad66aa1e4f6d08e74f9e551e721a7cb2dc5370fe8da1af5b11e8 4.01MB / 4.01MB 0.4s done
+#7 sha256:a803e7c4b030119420574a882a52b6431e160fceb7620f61b525d49bc2d58886 29.12MB / 29.12MB 3.7s done
+#7 extracting sha256:a803e7c4b030119420574a882a52b6431e160fceb7620f61b525d49bc2d58886 5.6s done
+#7 extracting sha256:b4972576c83dad66aa1e4f6d08e74f9e551e721a7cb2dc5370fe8da1af5b11e8
+#7 ...
+
+#8 [linux/arm64 1/2] FROM docker.io/library/openjdk:21-slim@sha256:7072053847a8a05d7f3a14ebc778a90b38c50ce7e8f199382128a53385160688
+#8 extracting sha256:e886f0f47ef56fcadb6ecaf2116056bbdb273e0afe07ed034498b198d386c04e 6.6s done
+#8 sha256:c190c8d653feddc1553f480657f5813ecd07f1979c94ef5b5afa2b7c9c278ca4 3.82MB / 3.82MB 6.2s done
+#8 sha256:e482cded4ea3e54d7deef2d29bf8599b9b136ac318defe89871c2f83b08443d5 149.07MB / 202.65MB 10.5s
+#8 sha256:e482cded4ea3e54d7deef2d29bf8599b9b136ac318defe89871c2f83b08443d5 160.12MB / 202.65MB 11.4s
+#8 sha256:e482cded4ea3e54d7deef2d29bf8599b9b136ac318defe89871c2f83b08443d5 170.39MB / 202.65MB 12.1s
+#8 sha256:e482cded4ea3e54d7deef2d29bf8599b9b136ac318defe89871c2f83b08443d5 181.50MB / 202.65MB 12.7s
+#8 sha256:e482cded4ea3e54d7deef2d29bf8599b9b136ac318defe89871c2f83b08443d5 191.79MB / 202.65MB 13.5s
+#8 extracting sha256:c190c8d653feddc1553f480657f5813ecd07f1979c94ef5b5afa2b7c9c278ca4
+#8 sha256:e482cded4ea3e54d7deef2d29bf8599b9b136ac318defe89871c2f83b08443d5 202.65MB / 202.65MB 14.4s
+#8 extracting sha256:c190c8d653feddc1553f480657f5813ecd07f1979c94ef5b5afa2b7c9c278ca4 3.2s done
+#8 sha256:e482cded4ea3e54d7deef2d29bf8599b9b136ac318defe89871c2f83b08443d5 202.65MB / 202.65MB 19.5s
+#8 ...
+
+#7 [linux/amd64 1/2] FROM docker.io/library/openjdk:21-slim@sha256:7072053847a8a05d7f3a14ebc778a90b38c50ce7e8f199382128a53385160688
+#7 sha256:af800cd8441e394f9ec3832393ff933c52e165c0965089937e3fb16ea395ea19 204.31MB / 204.31MB 20.2s
+#7 extracting sha256:b4972576c83dad66aa1e4f6d08e74f9e551e721a7cb2dc5370fe8da1af5b11e8 5.0s done
+#7 ...
+
+#8 [linux/arm64 1/2] FROM docker.io/library/openjdk:21-slim@sha256:7072053847a8a05d7f3a14ebc778a90b38c50ce7e8f199382128a53385160688
+#8 ...
+
+#7 [linux/amd64 1/2] FROM docker.io/library/openjdk:21-slim@sha256:7072053847a8a05d7f3a14ebc778a90b38c50ce7e8f199382128a53385160688
+#7 sha256:af800cd8441e394f9ec3832393ff933c52e165c0965089937e3fb16ea395ea19 204.31MB / 204.31MB 21.0s done
+#7 DONE 21.2s
+
+#8 [linux/arm64 1/2] FROM docker.io/library/openjdk:21-slim@sha256:7072053847a8a05d7f3a14ebc778a90b38c50ce7e8f199382128a53385160688
+#8 sha256:e482cded4ea3e54d7deef2d29bf8599b9b136ac318defe89871c2f83b08443d5 202.65MB / 202.65MB 21.1s done
+#8 DONE 21.2s
+
+#7 [linux/amd64 1/2] FROM docker.io/library/openjdk:21-slim@sha256:7072053847a8a05d7f3a14ebc778a90b38c50ce7e8f199382128a53385160688
+#7 extracting sha256:af800cd8441e394f9ec3832393ff933c52e165c0965089937e3fb16ea395ea19
+#7 ...
+
+#8 [linux/arm64 1/2] FROM docker.io/library/openjdk:21-slim@sha256:7072053847a8a05d7f3a14ebc778a90b38c50ce7e8f199382128a53385160688
+#8 extracting sha256:e482cded4ea3e54d7deef2d29bf8599b9b136ac318defe89871c2f83b08443d5
+#8 extracting sha256:e482cded4ea3e54d7deef2d29bf8599b9b136ac318defe89871c2f83b08443d5 10.9s done
+#8 DONE 32.1s
+
+#7 [linux/amd64 1/2] FROM docker.io/library/openjdk:21-slim@sha256:7072053847a8a05d7f3a14ebc778a90b38c50ce7e8f199382128a53385160688
+#7 extracting sha256:af800cd8441e394f9ec3832393ff933c52e165c0965089937e3fb16ea395ea19 11.1s done
+#7 DONE 32.3s
+
+#10 [linux/arm64 2/2] COPY target/*.jar app.jar
+#10 DONE 9.2s
+
+#11 [linux/amd64 2/2] COPY target/*.jar app.jar
+#11 DONE 8.7s
+
+#12 exporting to image
+#12 exporting layers
+#12 exporting layers 2.6s done
+#12 exporting manifest sha256:c13333677bbf2cbeacfc0a4e40e1d9ec25f1b3324e9451960ce96dd1f723cc5e
+#12 exporting manifest sha256:c13333677bbf2cbeacfc0a4e40e1d9ec25f1b3324e9451960ce96dd1f723cc5e 0.2s done
+#12 exporting config sha256:0d1a4d307a66a02d961228574c83c521535f82d797bfe9a93ecb86d675094a44
+#12 exporting config sha256:0d1a4d307a66a02d961228574c83c521535f82d797bfe9a93ecb86d675094a44 0.3s done
+#12 exporting attestation manifest sha256:4d828cd57901c7529c1fc4095bc1b50e1f03c5271588efe89e9cad049f819632 0.0s done
+#12 exporting manifest sha256:43b9a9d27bf28df2fdd1d57c356099af21abb7a32b45636a86f318347d98068a done
+#12 exporting config sha256:7e496bfc4fe33881d8c73517d71a1ffdfba0d8f5df1e83d6eea7351afb75f17d done
+#12 exporting attestation manifest sha256:029c3db9f53f729f8528051372f14125e26b1cc91658b237db29700b7131eec0 0.0s done
+#12 exporting manifest list sha256:bac39d297b8aebb8f3d27dfd75dd0c9338be6a3a8a84e308c7da9b51772dc519 done
+#12 pushing layers
+#12 ...
+
+#13 [auth] danielprado99/gateway:pull,push token for registry-1.docker.io
+#13 DONE 0.0s
+
+#12 exporting to image
+#12 pushing layers 32.1s done
+#12 pushing manifest for docker.io/danielprado99/gateway:latest@sha256:bac39d297b8aebb8f3d27dfd75dd0c9338be6a3a8a84e308c7da9b51772dc519
+#12 pushing manifest for docker.io/danielprado99/gateway:latest@sha256:bac39d297b8aebb8f3d27dfd75dd0c9338be6a3a8a84e308c7da9b51772dc519 3.5s done
+#12 pushing layers 1.1s done
+#12 pushing manifest for docker.io/danielprado99/gateway:1@sha256:bac39d297b8aebb8f3d27dfd75dd0c9338be6a3a8a84e308c7da9b51772dc519
+#12 pushing manifest for docker.io/danielprado99/gateway:1@sha256:bac39d297b8aebb8f3d27dfd75dd0c9338be6a3a8a84e308c7da9b51772dc519 1.5s done
+#12 DONE 41.5s
+[8mha:////4C3UE70Z/tqMWtcUQUjiaLWN5Kfr2bKUWHMh9VPiDLGzAAAApB+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyk8LGsbJlaDwBJogQ5n8CRFJ5Iq/mHUQzY+UWO/u2ec8XrGOAIwXNrMLBYOwM827SZbFMYbg6yszShXWEkZxiQmVBvTotKCgpWFLVsOKwUdg5igZ1gi238i4bJ1E35xTKd+BQm36EB1S8mJMM6QtzgN1t6iPhz/NXALNPULftp/b+DYZkJuy+AAAA[0m[Pipeline] sh
++ docker buildx rm --force multi-platform-builder-gateway
+multi-platform-builder-gateway removed
+[8mha:////4Phk0K0lso6864FB9Doc38CP95Su5lqq2WFyf6OfPs/wAAAApB+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyk8bCsbJlaDwBJogQ5n8CRFJ5Iq/mHUQzY+UWO/u2ec8XrGOAIwXNrMLBYOwM827SZbFMYbg6yszShXWEkZxiQmVBvTotKCgpWFLVsOKwUdg5igZ1gi238i4bJ1E35xTKd+BQm36EB1S8mJMM6QtzgN1t6iPhz/NXALP3Cep2/6n2DXO/JP++AAAA[0m[Pipeline] }
+[8mha:////4CALUM3BkBaGwOv6uH/oBWdpClem/cxR3+pZl+Vlp80kAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiqJAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbNxxce5e+AAAA[0m[Pipeline] // withCredentials
+[8mha:////4FUNM3rRJGmium6qwkmGyaTFB12u1rp5KFwgPYpB68CUAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKC6BCiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7Bi+/ICu+AAAA[0m[Pipeline] }
+[8mha:////4JgP011/yRLjHMU+lHTXSQU8kE4Ig45SRhtmTYhkorUaAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICokIoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AE0Dqn4vgAAAA==[0m[Pipeline] // stage
+[8mha:////4OwEqOyg2Gyo6mpqWjkZxZOfSXSpm21xCro2VBMyLhm3AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMJRlBJR0VppeIGJjXFi3Tn2haTiRXyNP2ARiYotVjvbzOsN2xThRNGK3uDgMHVOBD/ZvMRMcbh5mkVPV9ERJvJGtGZuSZvzii2xgTVFCRsJO4Odp+TQMuxlrx6q8gptdeGYv6OE0ukRnlDIbGYV+QtLhMN90onw5/krgCUEhrKpc9XNB480INO+AAAA[0m[Pipeline] }
+[8mha:////4OXLAxe87zSBj3f8tQ0JSROFQsFVaE52mvMemyTcZtCkAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIRoURUaa00vMDEh3Fi3RnbIal4EV/jD1hEomKL1c4283rDOgY4cTCiRxosxc4K70aTl5g4DFfHk+j5IjqmyA5Fi1PLGpsFW04IS4oSVhI2SJ3jaMkk2MpePVTlFJnqnEL+jhJKq+/whEJmc1IhfWEOsLuNOjL9PH8FMHufoDzUufb1B7d2syK+AAAA[0m[Pipeline] // withEnv
+[8mha:////4C/Kk+IO03qcZ+a1hJjXLcDN+62m3BWdZJ83kWUi3qtfAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMJRlBJR0VppeIGJjXFi3Tn2haTiRXyNP2ARiYotVjvbzOsN2xThRNGK3uDgMHVOBD/ZvMRMcbh5mkVPV9ERJvJGtGZuSZvzii2xgTVFCRsJO4Odp+TQMuxlrx6q8gptdeGYv6OE0ukRnlDIbGYV+QtLhMN90onw5/krgCUEhrJpctX1B6j05nC+AAAA[0m[Pipeline] }
+[8mha:////4LzoQL/NxZNBB8Orj+tKoDajKGU0ephc0LKQPOoj+ucRAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICgg6lorXc8AKTGOPEugu2g1PxIr7GH7CIRMUWq51t5vWGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYhQrk/5NptP4b05Bq+AAAA[0m[Pipeline] // withEnv
+[8mha:////4GcI10YBtIAaKmDzC1Wc6dw8gZVRyLHWBHZkcEV5rDsZAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiIUauVY2WZoPEGEGAOZXUwWofJEXs07yMiMlb/67zXv9cYyRRw5OtVYaj2lyqsu9G56auDYXgMPquGLqpgSB6tKO5Rc29OMJYvFvCzHQmNlqQqcPDnBWjfmYYpgyBVniZM7aOS+vuOJTE9lMVG+MEZsbn2dmH6dvwGMXSfIt3tBtvsA/gVtV70AAAA=[0m[Pipeline] }
+[8mha:////4B5AttdRz8wM18CStvrNj1bF5RN65wWqB/tOiDouQcX6AAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IMJC7GybVh8Qsq1Fpo3sP2IUx+kb/mP0gkcfJO95zlvN5Yp4gjR6daS52nVHvVh8HNT40cu2vgUbV8UTVT4mBVZceKG3tasGKxWJblWGlsLNWBkycn2OrWPEwRDLniLHF2B43cN3c8kem5LCbKF6aI3W1oEtOv8zeAqe8FebkXZOUHjeqpjr0AAAA=[0m[Pipeline] // node
+[8mha:////4HkfpfKaWyfEdF+H2RK+vM3r9QfiS130urnmTS5NTFUsAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRoKBAVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Lu9INt+AKvzzsS9AAAA[0m[Pipeline] End of Pipeline
+Finished: SUCCESS
